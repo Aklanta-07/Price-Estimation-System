@@ -1,55 +1,131 @@
 # Compiled class files
+*/target/
+target/
 *.class
 
-# Package Files
+# Package files
 *.jar
 *.war
 *.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
 
-# Eclipse/STS specific files
-.classpath
-.project
-.settings/
-bin/
-target/
-
-# IDE specific
-.metadata/
-.recommenders/
-.sts4-cache/
-
-# Build output
-build/
-dist/
-out/
-
-# Log files
-*.log
-
-# OS specific
-.DS_Store
-Thumbs.db
-
-# Tomcat
-Servers/
-
-# Maven
-target/
+# Maven build logs
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
 release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
 
-# Web application files (optional - include if needed)
-# /src/main/webapp/WEB-INF/classes/
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
 
-# Database connection files (if any)
-*.properties
-!application.properties
-
-# Temporary files
+# IDE files
+## Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+tmp/
 *.tmp
 *.bak
 *.swp
 *~.nib
+local.properties
+.loadpath
+
+## IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+
+## NetBeans
+nbproject/
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+## Visual Studio Code
+.vscode/
+*.code-workspace
+
+## Spring Tool Suite
+.sts4-cache/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+
+# Log files
+*.log
+logs/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files (if they contain local settings)
+application-local.properties
+application-dev.properties
+application-*.yml
+!application.yml
+!application.properties
+
+# Test output
+test-output/
+surefire-reports/
+failsafe-reports/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Custom properties files (if any)
+*.properties.local
+*.properties.dev
+
+# JetBrains annotations
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/encodings.xml
+.idea/libraries/
+
+# Frontend build folders (if you have frontend in webapp)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+docker-compose.override.yml
+*.dockerignore
+
+# Kubernetes
+*.secret.yaml
+*.secret.yml
+
+# Environment files
+.env
+.env.local
+.env.*.local
