@@ -72,11 +72,11 @@ public class Product {
 		this.sourceUrl = sourceUrl;
 	}
 
-	public String getSerachKeyword() {
+	public String getSearchKeyword() {
 		return searchKeyword;
 	}
 
-	public void setSerachKeyword(String serachKeyword) {
+	public void setSearchKeyword(String serachKeyword) {
 		this.searchKeyword = serachKeyword;
 	}
 
@@ -89,8 +89,12 @@ public class Product {
 	}
 	
 	@Override
-	public String toString() {
-		return "Product [name=" + name + ", price=" + price + ", sourceWebsite=" + sourceWebsite + "]";
-	}
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", price=" + price + " " + currency +
+                ", source='" + sourceWebsite + '\'' +
+                '}';
+    }
 	
 	}

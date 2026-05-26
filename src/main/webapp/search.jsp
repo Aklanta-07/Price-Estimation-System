@@ -57,7 +57,7 @@
                         <h3 class="text-center mb-4">Search for Products & Services</h3>
                         <p class="text-center text-muted mb-4">Enter product details to get estimated market prices</p>
                         
-                        <form action="search" method="get">
+                        <form action="search" method="post">
                             <div class="mb-4">
                                 <label for="productName" class="form-label fw-bold">Product / Service Name *</label>
                                 <input type="text" class="form-control form-control-lg" 
